@@ -1,0 +1,9 @@
+@use '../abstract/variaveis';
+@use '../abstract/mixins';
+
+footer{
+    padding: 1.5rem;
+    text-align: center;
+    font-family: variaveis.$ft-textos;
+    background: variaveis.$cor-default;
+}
